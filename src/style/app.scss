@@ -12,6 +12,12 @@ $navbar-breakpoint: $desktop;
 @import "node_modules/bulma-extensions/bulma-timeline/src/sass";
 @import "node_modules/aos/src/sass/aos.scss";
 
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid"; // fas
+@import "~@fortawesome/fontawesome-free/scss/regular"; // far
+@import "~@fortawesome/fontawesome-free/scss/brands"; // fab
+
 html {
     scroll-behavior: smooth;
 }
@@ -107,14 +113,19 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
-    h1 {
+}
+
+h2 {
+    text-align: center;
+
+    .upper {
         font-size: calc(2.5rem + 2.5vw);
-        text-align: center;
         line-height: 0.7;
+        display: block;
     }
-    h2 {
+    .lower {
         font-size: calc(1.5rem + 1.5vw);
-        text-align: center;
+        display: block;
     }
 }
 
@@ -234,15 +245,18 @@ p {
     text-align: center;
     z-index: 1;
     padding: 1rem;
-    h1 {
+    .upper {
         font-size: calc(8rem + 8vw);
+        display: block;
     }
-    h2 {
+    .lower {
         font-size: calc(4rem + 4vw);
+        display: block;
     }
+
 }
 
-.header h3 {
+.tagline {
     font-size: calc(1rem + 1vw);
     text-align: center;
     font-weight: 300;
@@ -272,7 +286,7 @@ p {
     //  top: 50%;
     //  transform: translate(0, -50%);
     text-align: center;
-    h1 {
+    h3 {
         font-size: 2rem;
         font-family: "Permanent Marker", cursive;
         color: $red;

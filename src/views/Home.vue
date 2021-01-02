@@ -5,11 +5,13 @@
     <section class="header hero is-fullheight" id="header">
       <div class="container">
         <div class="header-text">
-          <div class="logo" data-aos="fade-down">
-            <h1>Andy</h1>
-            <h2>Hargrave</h2>
-          </div>
-          <h3>Web Developer & Deployment Specialist</h3>
+          <h1>
+            <div class="logo" data-aos="fade-down">
+              <span class="upper">Andy</span>
+              <span class="lower">Hargrave</span>
+            </div>
+            <span class="tagline">Web Developer & Deployment Specialist</span>
+          </h1>
           <br />
           <div class="level">
             <div class="level-item">
@@ -40,10 +42,10 @@
 
     <section class="hero is-fullheight about" id="about">
       <div class="container">
-        <div class="section-header" data-aos="fade-right">
-          <h1>About</h1>
-          <h2>Me</h2>
-        </div>
+        <h2 class="section-header" data-aos="fade-right">
+          <span class="upper">About</span>
+          <span class="lower">Me</span>
+        </h2>
         <div class="columns section-body">
           <div class="column">
             <figure class="image" data-aos="fade-right">
@@ -127,10 +129,10 @@
 
     <section class="hero is-fullheight keyshare" id="keys">
       <div class="container">
-        <div class="section-header" data-aos="fade-left">
-          <h1>Key</h1>
-          <h2>Share</h2>
-        </div>
+        <h2 class="section-header" data-aos="fade-left">
+          <span class="upper">Key</span>
+          <span class="lower">Share</span>
+        </h2>
         <div class="section-body">
           <div class="level" data-aos="fade-right">
             <div class="level-item">
@@ -192,10 +194,10 @@
     </section>
     <section class="hero is-fullheight keyshare" id="rota">
       <div class="container">
-        <div class="section-header" data-aos="fade-left">
-          <h1>Lunch</h1>
-          <h2>Rota</h2>
-        </div>
+        <h2 class="section-header" data-aos="fade-left">
+          <span class="upper">Lunch</span>
+          <span class="lower">Rota</span>
+        </h2>
         <div class="section-body">
           <div class="level" data-aos="fade-right">
             <div class="level-item">
@@ -265,13 +267,13 @@
 
     <section class="hero is-fullheight" id="components" data-aos="fade-left">
       <div class="container">
-        <div class="section-header">
-          <h1>Vue</h1>
-          <h2>Components</h2>
-        </div>
+        <h2 class="section-header">
+          <span class="upper">Vue</span>
+          <span class="lower">Components</span>
+        </h2>
         <div class="section-body">
           <div class="component-header" data-aos="flip-left">
-            <h1>Date Picker</h1>
+            <h3>Date Picker</h3>
           </div>
           <div
             class="component-body"
@@ -315,7 +317,7 @@
             </div>
           </div>
           <div class="component-header" data-aos="flip-left">
-            <h1>Time Picker</h1>
+            <h3>Time Picker</h3>
           </div>
           <div class="component-body">
             <div data-aos="flip-right">
@@ -358,7 +360,7 @@
             </div>
           </div>
           <div class="component-header" data-aos="flip-left">
-            <h1>Auto Complete</h1>
+            <h3>Auto Complete</h3>
           </div>
           <div class="component-body">
             <div data-aos="flip-right">
@@ -414,10 +416,10 @@
       data-aos="fade-right"
     >
       <div class="container">
-        <div class="section-header">
-          <h1>Hosting</h1>
-          <h2>+ Virtualisation</h2>
-        </div>
+        <h2 class="section-header">
+          <span class="upper">Hosting</span>
+          <span class="lower">+ Virtualisation</span>
+        </h2>
         <div class="section-body">
           <div class="projects-item" data-aos="zoom-in-right">
             <div class="projects-body">
@@ -427,7 +429,7 @@
                 </div>
                 <div class="column  is-four-fifths ">
                   <div class="project">
-                    <h1>Hosting Platform</h1>
+                    <h3>Hosting Platform</h3>
                     <p>
                       I run hosting privately, for both video game servers and
                       web applications. These are mostly running Proxmox
@@ -445,7 +447,7 @@
               <div class="columns is-vcentered">
                 <div class="column  is-four-fifths ">
                   <div class="project">
-                    <h1>Proxmox</h1>
+                    <h3>Proxmox</h3>
                     <p>
                       I am currently using Proxmox Hypervisor (KVM and LXC
                       based) for VMs and Containers. This has the feature to be
@@ -468,7 +470,7 @@
                 </div>
                 <div class="column  is-four-fifths ">
                   <div class="project">
-                    <h1>Docker</h1>
+                    <h3>Docker</h3>
                     <p>
                       I have containerised most of the applications and game
                       servers, including containers for all the applications I
@@ -491,7 +493,7 @@
               <div class="columns is-vcentered">
                 <div class="column  is-four-fifths ">
                   <div class="project">
-                    <h1>Traefik</h1>
+                    <h3>Traefik</h3>
                     <p>
                       I am using Traefik as an edge router for directing traffic
                       from the domains to the correct web application. Traefik
@@ -517,10 +519,10 @@
       data-aos="fade-right"
     >
       <div class="container">
-        <div class="section-header">
-          <h1>Other</h1>
-          <h2>Projects</h2>
-        </div>
+        <h2 class="section-header">
+          <span class="upper">Other</span>
+          <span class="lower">Projects</span>
+        </h2>
         <div class="section-body">
           <div class="projects-item" data-aos="zoom-in-right">
             <div class="projects-body">
@@ -530,7 +532,7 @@
                 </div>
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Advanced Hackathon 2020 - Wards MyWorkplace App</h1>
+                    <h3>Advanced Hackathon 2020 - Wards MyWorkplace App</h3>
                     <p>
                       I took part in the 2020 Advanced Hackathon, in which the
                       task was to create an external applet which integrates
@@ -557,7 +559,7 @@
               <div class="columns is-vcentered">
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Tabletop Simulator - Gloomhaven Scripting</h1>
+                    <h3>Tabletop Simulator - Gloomhaven Scripting</h3>
                     <p>
                       I have been working to make board games playable in
                       Tabletop Simulator, so that people can continue playing
@@ -612,7 +614,7 @@
                 </div>
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Portal Stories: Mel</h1>
+                    <h3>Portal Stories: Mel</h3>
                     <p>
                       I was the original leader on the Portal 2 mod Portal
                       Stores: Mel. The mod went on to win a Video Game Award for
@@ -644,7 +646,7 @@
               <div class="columns is-vcentered">
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Minecraft VR Nightclub - Scripted Beat Detection</h1>
+                    <h3>Minecraft VR Nightclub - Scripted Beat Detection</h3>
                     <p>
                       I host a Minecraft server for VR users. The server is a
                       nightclub for VR users, and features a custom scripted
@@ -686,7 +688,7 @@
                 </div>
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Music Production</h1>
+                    <h3>Music Production</h3>
                     <p>
                       I produce music using Analog Synthesizers, mixed with more
                       modern techniques. I have created and released an album
@@ -717,7 +719,7 @@
               <div class="columns is-vcentered">
                 <div class="column is-three-quarters">
                   <div class="project">
-                    <h1>Charity Events</h1>
+                    <h3>Charity Events</h3>
                     <p>
                       I have hosted multiple charity events for various
                       charities. This includes 4 separate charity gaming
@@ -738,10 +740,10 @@
 
     <section class="hero is-fullheight work" id="work" data-aos="fade-left">
       <div class="container">
-        <div class="section-header">
-          <h1>Work</h1>
-          <h2>Experience</h2>
-        </div>
+        <h2  class="section-header">
+          <span class="upper">Work</span>
+          <span class="lower">Experience</span>
+        </h2>
         <div class="section-content">
           <div class="timeline is-centered">
             <header class="timeline-header">
@@ -863,10 +865,10 @@
     </section>
     <section class="hero is-fullheight contact" id="contact">
       <div class="container">
-        <div class="section-header" data-aos="fade-right">
-          <h1>Contact</h1>
-          <h2>Me</h2>
-        </div>
+        <h2 class="section-header" data-aos="fade-right">
+          <span class="upper">Contact</span>
+          <span class="lower">Me</span>
+        </h2>
         <div class="section-content">
           <p data-aos="fade-left">
             If you would like to work with me, then be sure to contact me on
@@ -918,6 +920,9 @@
 <script>
 import Navbar from "../components/Navbar.vue";
 import BrowserCheck from "../components/BrowserCheck";
+import AndyHTimePicker from "andyh-timepicker";
+import AndyHDatePicker from "andyh-datepicker";
+import AndyHAutocomplete from "andyh-autocomplete";
 
 export default {
   name: "MainPage",
@@ -926,7 +931,10 @@ export default {
   },
   components: {
     Navbar,
-    BrowserCheck
+    BrowserCheck,
+    "time-picker": AndyHTimePicker,
+    "date-picker": AndyHDatePicker,
+    "auto-complete": AndyHAutocomplete
   }
 };
 </script>
