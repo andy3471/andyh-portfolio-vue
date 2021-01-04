@@ -18,9 +18,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/regular"; // far
 @import "~@fortawesome/fontawesome-free/scss/brands"; // fab
 
-html {
-    scroll-behavior: smooth;
-}
+@import "../../node_modules/fullpage.js/dist/fullpage.min.css";
 
 body {
     background-color: $purple;
@@ -29,14 +27,6 @@ body {
     background: url("../assets/bg.jpg") no-repeat center fixed;
     background-color: $blue;
     background-size: cover;
-}
-
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }
 
 a {
@@ -54,22 +44,11 @@ a:visited {
 .hero {
     flex-direction: row;
 }
-
-.timeline {
-    height: 100%;
-}
-
-.container {
-    padding: 0.5rem;
-}
+ 
 
 .level {
     margin-bottom: 0.5rem !important;
 }
-
-// .buttons {
-//     margin-bottom: 0.5rem;
-// }
 
 .image {
     margin-bottom: 0.5rem;
@@ -217,22 +196,22 @@ h2 {
 }
 
 // Header
-.header {
-    text-align: center;
-    z-index: 1;
-}
+// .header {
+//     text-align: center;
+//     z-index: 1;
+// }
 
-.header.container {
-    display: table-cell;
-    vertical-align: middle;
-}
+// .header.container {
+//     display: table-cell;
+//     vertical-align: middle;
+// }
 
-.header-text {
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+// .header-text {
+//     position: absolute;
+//     top: 50vh;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+// }
 
 .logo {
     background-image: linear-gradient($red, $orange);
@@ -258,7 +237,6 @@ h2 {
 
 .tagline {
     font-size: calc(1rem + 1vw);
-    text-align: center;
     font-weight: 300;
     padding-top: 2rem;
 }

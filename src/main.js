@@ -3,15 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+import "fullpage.js/vendors/scrolloverflow";
+import VueFullPage from "vue-fullpage.js";
 
 Vue.config.productionTip = false;
+Vue.use(VueFullPage);
 
 new Vue({
-  created() {
-    AOS.init();
-  },
   router,
   store,
   render: h => h(App)
